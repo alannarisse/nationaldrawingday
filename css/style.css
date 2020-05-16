@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+}
+h1, h2, h3 {font-family: 'Sedgwick Ave', cursive;}
+header, main, footer {
+	width: 80%;
+	margin: auto;
+}
+footer {
+	font-size: 10px;
+	
+}
