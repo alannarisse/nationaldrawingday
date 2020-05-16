@@ -3,15 +3,36 @@ body {
 	font-family: 'Crimson Text', serif;
 	font-size: 16px;
 }
+
 h1, h2, h3 {
 	font-family: 'Sedgwick Ave', cursive;
 	line-height: 1.4em;
+}
+h1 { font-size: 60px; }
+h2 { font-size: 48px; }
+h3 { font-size: 32px; }
+a {
+	color: #FF4C08;
+}
+a:hover {
+	color: #2983a1;
+}
+input[type=submit] {
+	background-color: #FFDC6B;
+	font-family: 'Sedgwick Ave', cursive;
+	border-radius:0%;
+	font-size: 24px;
+	padding: 8px 12px;
+}
+input[type=submit]:hover {
+	background-color:#B3FF78;
 }
 header, main, footer {
 	width: 80%;
 	margin: auto;
 }
 footer {
-	font-size: 10px;
-
+	font-size: 12px;
+	margin: 40px 0;
 }
+footer span { margin-right: 20px; }
